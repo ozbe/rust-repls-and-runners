@@ -4,9 +4,9 @@ A collection of examples implemented with different Rust REPLs & Runners.
 
 ## Tools
 - [Cargo Workspace](cargo-workspace/README.md)
-- [runner](runner/README.md)
 - [cargo-eval](cargo-eval/README.md)
 - [evcxr](evcxr/README.md)
+- [runner](runner/README.md)
 
 ## Examples
 ### Hello World
