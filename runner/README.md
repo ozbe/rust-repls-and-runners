@@ -2,10 +2,9 @@
 
 [Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with [runner](https://github.com/stevedonovan/runner).
 
-## Install
-```
-cargo install runner
-```
+## Prereqs
+
+- [runner](https://github.com/stevedonovan/runner)
 
 ## Examples
 ### Hello World

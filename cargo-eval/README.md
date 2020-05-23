@@ -2,6 +2,9 @@
 
 [Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with [cargo-eval](https://github.com/reitermarkus/cargo-eval).
 
+## Prereqs
+
+- [cargo-eval](https://github.com/reitermarkus/cargo-eval)
 
 ## hello world
 ```

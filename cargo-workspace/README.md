@@ -2,6 +2,10 @@
 
 [Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with a [Cargo Workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html).
 
+## Prereqs
+
+- [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+
 ## Examples
 
 ### Hello World
