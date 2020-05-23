@@ -1,11 +1,10 @@
 # evcxr
 
-[Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with [evcxr](https://github.com/google/evcxr)
+[Examples](../README.md#examples) implemented with [evcxr](https://github.com/google/evcxr)
 
-## Install
-```
-$ cargo install evcxr_repl
-```
+## Prereqs
+
+- [evcxr](https://github.com/google/evcxr)
 
 ### Hello World
 

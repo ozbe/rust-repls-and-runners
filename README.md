@@ -4,9 +4,9 @@ A collection of examples implemented with different Rust REPLs & Runners.
 
 ## Tools
 - [Cargo Workspace](cargo-workspace/README.md)
-- [runner](runner/README.md)
 - [cargo-eval](cargo-eval/README.md)
 - [evcxr](evcxr/README.md)
+- [runner](runner/README.md)
 
 ## Examples
 ### Hello World
@@ -15,6 +15,11 @@ A collection of examples implemented with different Rust REPLs & Runners.
 fn main() {
   println!("Hello, world!");
 }
+```
+
+#### Output
+```
+Hello, world!
 ```
 
 #### Dependencies
@@ -45,6 +50,12 @@ fn main() -> std::io::Result<()> {
 }
 ```
 
+#### Output
+```
+written = Hello, world!
+read = Hello, world!
+```
+
 #### Dependencies
 None
 
@@ -63,6 +74,12 @@ fn main() {
   nums.shuffle(&mut rng);
   println!("nums = {:?}", nums);
 }
+```
+
+#### Output
+```
+y = [float between 0 and 1]
+nums = [99 random numbers]
 ```
 
 #### Dependencies
@@ -89,6 +106,12 @@ fn main() {
     let deserialized: Point = serde_json::from_str(&serialized).unwrap();
     println!("deserialized = {:?}", deserialized);
 }
+```
+
+#### Output
+```
+serialized = {"x":1,"y":2}
+deserialized = Point { x: 1, y: 2 }
 ```
 
 #### Dependencies
