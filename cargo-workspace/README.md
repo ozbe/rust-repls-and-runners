@@ -1,6 +1,6 @@
 # cargo-workspace
 
-[Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with a [Cargo Workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html).
+[Examples](../README.md#examples) implemented with a [Cargo Workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html).
 
 ## Prereqs
 
