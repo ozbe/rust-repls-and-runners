@@ -17,6 +17,11 @@ fn main() {
 }
 ```
 
+#### Output
+```
+Hello, world!
+```
+
 #### Dependencies
 None
 
@@ -45,6 +50,12 @@ fn main() -> std::io::Result<()> {
 }
 ```
 
+#### Output
+```
+written = Hello, world!
+read = Hello, world!
+```
+
 #### Dependencies
 None
 
@@ -63,6 +74,12 @@ fn main() {
   nums.shuffle(&mut rng);
   println!("nums = {:?}", nums);
 }
+```
+
+#### Output
+```
+y = [float between 0 and 1]
+nums = [99 random numbers]
 ```
 
 #### Dependencies
@@ -89,6 +106,12 @@ fn main() {
     let deserialized: Point = serde_json::from_str(&serialized).unwrap();
     println!("deserialized = {:?}", deserialized);
 }
+```
+
+#### Output
+```
+serialized = {"x":1,"y":2}
+deserialized = Point { x: 1, y: 2 }
 ```
 
 #### Dependencies
