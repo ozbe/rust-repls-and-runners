@@ -1,21 +1,26 @@
 # evcxr
-[GitHub - google/evcxr](https://github.com/google/evcxr)
+
+[Examples](https://github.com/ozbe/rust-repls-and-runners#examples) implemented with [evcxr](https://github.com/google/evcxr)
+
+## Install
 ```
-cargo install evcxr_repl
+$ cargo install evcxr_repl
 ```
 
-```
-evcxr
-```
+### Hello World
 
-## hello world
+#### Run
 ```
+$ evcxr
 >> println!("Hello, world!");
 ```
 
-## file io
+### File Example
+
+#### Run
 ```
->> use std::fs::File;
+$ evcxr
+>> use std::fs::{self, File};
 >> use std::io::prelude::*;
 >> let path = "foo.txt";
 >> let mut file = File::create(path)?;
@@ -26,24 +31,29 @@ evcxr
 >> let mut contents = String::new();
 >> file.read_to_string(&mut contents)?;
 >> println!("read = {}", contents);
->> fs::remove_file(path)
+>> fs::remove_file(path);
 ```
 
-## rand
+### Rand Example
+
+#### Run
 ```
+$ evcxr
 >> :dep rand = { version = "0.7.3" }
 >> use rand::prelude::*;
->> let mut rng = rand::thread_rng();
+>> let mut rng: rand::rngs::ThreadRng = rand::thread_rng();
 >> let y: f64 = rng.gen();
 >> println!("y = {}", y);
-
 >> let mut nums: Vec<i32> = (1..100).collect();
 >> nums.shuffle(&mut rng);
 >> println!("nums = {:?}", nums);
 ```
 
-## serde
+### Serde Example
+
+#### Run
 ```
+$ evcxr
 >> :dep serde = { version = "1.0", features = ["derive"] }
 >> :dep serde_json = { version = "1.0" }
 >> use serde::{Serialize, Deserialize};
