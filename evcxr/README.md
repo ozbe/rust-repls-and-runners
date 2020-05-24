@@ -8,7 +8,7 @@
 
 ### Hello World
 
-#### Run
+#### Source & Run
 ```
 $ evcxr
 >> println!("Hello, world!");
@@ -16,7 +16,7 @@ $ evcxr
 
 ### File Example
 
-#### Run
+#### Source & Run
 ```
 $ evcxr
 >> use std::fs::{self, File};
@@ -35,7 +35,7 @@ $ evcxr
 
 ### Rand Example
 
-#### Run
+#### Source & Run
 ```
 $ evcxr
 >> :dep rand = { version = "0.7.3" }
@@ -50,7 +50,7 @@ $ evcxr
 
 ### Serde Example
 
-#### Run
+#### Source & Run
 ```
 $ evcxr
 >> :dep serde = { version = "1.0", features = ["derive"] }
