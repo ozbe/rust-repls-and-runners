@@ -9,6 +9,10 @@
 ## Examples
 ### Hello World
 
+#### Source
+
+[hello-world.rs](hello-world.rs)
+
 #### Run
 ```
 runner hello-world.rs
@@ -16,12 +20,20 @@ runner hello-world.rs
 
 ### File Example
 
+#### Source
+
+[file-example.rs](file-example.rs)
+
 #### Run
 ```
 runner file-example.rs
 ```
 
 ### Rand Example
+
+#### Source
+
+[rand-example.rs](rand-example.rs)
 
 #### Setup
 ```
@@ -33,9 +45,12 @@ $ runner --build
 ```
 runner rand-example.rs
 ```
-https://github.com/stevedonovan/runner/issues/4
 
 ## #Serde Example
+
+#### Source
+
+[serde-example.rs](serde-example.rs)
 
 #### Setup
 ```
