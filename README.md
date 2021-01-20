@@ -2,6 +2,8 @@
 
 A collection of examples implemented with different Rust REPLs & Runners.
 
+Related blog post: [The Three "R"s: Rust, REPL, Runner](https://ozbe.io/the-three-rs-rust-repl-runner/)
+
 ## Tools
 - [Cargo Workspace](cargo-workspace/README.md)
 - [cargo-eval](cargo-eval/README.md)
